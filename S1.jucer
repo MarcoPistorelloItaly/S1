@@ -2,8 +2,9 @@
 
 <JUCERPROJECT id="Ue7TXb" name="S1" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Marco Pysto"
-              companyWebsite="com.marcopysto" pluginFormats="buildAU,buildStandalone"
-              pluginCharacteristicsValue="pluginIsSynth" version="0.0.1">
+              companyWebsite="www.marcopysto.com" pluginFormats="buildAU,buildStandalone"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              version="0.0.1" pluginAUIsSandboxSafe="1">
   <MAINGROUP id="yDikrY" name="S1">
     <GROUP id="{D608E741-DD62-1832-9ED1-6170C2BA0ABA}" name="Source">
       <FILE id="AkCViQ" name="Adsr.cpp" compile="1" resource="0" file="Source/Adsr.cpp"/>

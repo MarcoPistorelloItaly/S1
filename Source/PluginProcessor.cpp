@@ -49,7 +49,7 @@ treeState(*this, nullptr, "PARAMETERS", { createParameterLayout()})
     
     updatePresetsMap();
     
-    loadSettingsFromPresetComposedName(presetsUtilities.buildInitPresetComposedName());
+    //loadSettingsFromPresetComposedName(presetsUtilities.buildInitPresetComposedName());
     
     constants = new Constants();
 }

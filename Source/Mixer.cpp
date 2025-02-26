@@ -91,13 +91,11 @@ void Mixer::sliderValueChanged(juce::Slider* slider)
 {
     if(slider == &level1Slider)
     {
-        std::cout << "LEVEL1 " << level1Slider.getValue() << std::endl;
         processor.level1Parameter = new std::atomic<float>(level1Slider.getValue());
     }
     
     if(slider == &level2Slider)
     {
-        std::cout << "LEVEL2 " << level2Slider.getValue() << std::endl;
         processor.level2Parameter = new std::atomic<float>(level2Slider.getValue());
     }
     

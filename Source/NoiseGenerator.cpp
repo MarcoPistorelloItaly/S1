@@ -64,7 +64,6 @@ void NoiseGenerator::buttonClicked(juce::Button* button)
     {
         std::atomic<float>* switchParameter = processor.noiseGeneratorSwitchParameter;
         
-        std::cout << "SWITCH Noise Generator" << " " << switchButton.getToggleState() << std::endl;
         switchParameter = new std::atomic<float>(switchButton.getToggleState());
     }
 }

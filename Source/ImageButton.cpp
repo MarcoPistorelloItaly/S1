@@ -55,5 +55,4 @@ void ImageButton::drawRotarySlider(juce::Graphics& g,
 void ImageButton::drawButtonBackground (juce::Graphics&, juce::Button&, const juce::Colour& backgroundColour,
                            bool shouldDrawButtonAsHighlighted, bool shouldDrawButtonAsDown)
 {
-    std::cout << "cccc" << std::endl;
 }

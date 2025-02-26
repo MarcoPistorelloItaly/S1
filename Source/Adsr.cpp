@@ -168,7 +168,6 @@ void Adsr::sliderValueChanged(juce::Slider* slider)
             attackParameter = processor.attack2Parameter;
         }
         
-        std::cout << "Attack Slider " << indexParam << " " << attackSlider.getValue() << std::endl;
         attackParameter = new std::atomic<float>(attackSlider.getValue());
     }
     
@@ -180,7 +179,6 @@ void Adsr::sliderValueChanged(juce::Slider* slider)
             decayParameter = processor.decay2Parameter;
         }
         
-        std::cout << "Decay Slider " << indexParam << " " << decaySlider.getValue() << std::endl;
         decayParameter = new std::atomic<float>(decaySlider.getValue());
     }
     
@@ -192,7 +190,6 @@ void Adsr::sliderValueChanged(juce::Slider* slider)
             sustainParameter = processor.sustain2Parameter;
         }
         
-        std::cout << "Sustain Slider " << indexParam << " " << sustainSlider.getValue() << std::endl;
         sustainParameter = new std::atomic<float>(sustainSlider.getValue());
     }
     

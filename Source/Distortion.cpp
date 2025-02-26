@@ -276,7 +276,6 @@ void Distortion::sliderValueChanged(juce::Slider* slider)
             rangeParameter = processor.range2Parameter;
         }
         
-        std::cout << "RANGE " << index << rangeSlider.getValue() << std::endl;
         rangeParameter = new std::atomic<float>(rangeSlider.getValue());
     }
     

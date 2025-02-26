@@ -146,7 +146,9 @@ void S1AudioProcessorEditor::resetLayers() {
 }
 
 void S1AudioProcessorEditor::aaa() {
+    /*
     std::cout << "visible . " << presetsBrowser.isVisible() << std::endl;
     std::cout << "shown . " << presetsBrowser.isShowing() << std::endl;
     std::cout << "opaque . " << presetsBrowser.isOpaque() << std::endl;
+     */
 }
