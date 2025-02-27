@@ -991,7 +991,7 @@ void S1AudioProcessor::updateFilter ()
     
     //auto filterCutoffDial2Parameter = treeState.getRawParameterValue(FILTER_CUTOFF_DIAL_ID_2);
     filterResDial2Parameter = treeState.getRawParameterValue(FILTER_2_RES_ID);
-    auto filterMenu2Parameter = treeState.getRawParameterValue(FILTER_2_RES_ID);
+    auto filterMenu2Parameter = treeState.getRawParameterValue(FILTER_2_TYPE_ID);
     
     if (float(*filterMenu1Parameter) == 0)
     {
@@ -1000,12 +1000,12 @@ void S1AudioProcessor::updateFilter ()
     
     if (float(*filterMenu1Parameter) == 1)
     {
-        filter1Type = juce::dsp::StateVariableTPTFilterType::bandpass;
+        filter1Type = juce::dsp::StateVariableTPTFilterType::highpass;
     }
     
     if (float(*filterMenu1Parameter) == 2)
     {
-        filter1Type = juce::dsp::StateVariableTPTFilterType::highpass;
+        filter1Type = juce::dsp::StateVariableTPTFilterType::bandpass;
     }
     
     if (float(*filterMenu2Parameter) == 0)
@@ -1015,13 +1015,16 @@ void S1AudioProcessor::updateFilter ()
     
     if (float(*filterMenu2Parameter) == 1)
     {
-        filter2Type = juce::dsp::StateVariableTPTFilterType::bandpass;
+        filter2Type = juce::dsp::StateVariableTPTFilterType::highpass;
     }
     
     if (float(*filterMenu2Parameter) == 2)
     {
-        filter2Type = juce::dsp::StateVariableTPTFilterType::highpass;
+        filter2Type = juce::dsp::StateVariableTPTFilterType::bandpass;
     }
+    
+    DBG(float(*filterMenu1Parameter));
+    DBG(float(*filterMenu2Parameter));
 }
 
 //==============================================================================

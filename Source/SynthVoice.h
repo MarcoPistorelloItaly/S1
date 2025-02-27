@@ -192,7 +192,6 @@ public:
     
     void renderNextBlock (juce::AudioBuffer< float > &outputBuffer, int startSample, int numSamples)
     {
-        DBG("ccccc");
         if(!isVoiceActive()) {
             return;
         }
