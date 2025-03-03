@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Ue7TXb" name="S1" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Marco Pysto"
+              companyWebsite="www.marcopysto.com" pluginFormats="buildAU,buildStandalone"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              version="0.0.1" pluginAUIsSandboxSafe="1">
+  <MAINGROUP id="yDikrY" name="S1">
+    <GROUP id="{D608E741-DD62-1832-9ED1-6170C2BA0ABA}" name="Source">
+      <FILE id="AkCViQ" name="Adsr.cpp" compile="1" resource="0" file="Source/Adsr.cpp"/>
+      <FILE id="HTMcZV" name="Adsr.h" compile="0" resource="0" file="Source/Adsr.h"/>
+      <FILE id="nQoGR5" name="ColorKnob.cpp" compile="1" resource="0" file="Source/ColorKnob.cpp"/>
+      <FILE id="MWwxmW" name="ColorKnob.h" compile="0" resource="0" file="Source/ColorKnob.h"/>
+      <FILE id="QHNlrb" name="Constants.h" compile="0" resource="0" file="Source/Constants.h"/>
+      <FILE id="jqArzT" name="Distortion.cpp" compile="1" resource="0" file="Source/Distortion.cpp"/>
+      <FILE id="CxKQ92" name="Distortion.h" compile="0" resource="0" file="Source/Distortion.h"/>
+      <FILE id="SKTjUC" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+      <FILE id="hqTMqr" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="JI9o1V" name="ImageButton.cpp" compile="1" resource="0" file="Source/ImageButton.cpp"/>
+      <FILE id="cGFSZS" name="ImageButton.h" compile="0" resource="0" file="Source/ImageButton.h"/>
+      <FILE id="c1Kooh" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="WuMqT8" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="O8gRPN" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="pxQdPh" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="a7RcYe" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="iGHx8J" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="x5h8vl" name="ProgramSelector.cpp" compile="1" resource="0"
+            file="Source/ProgramSelector.cpp"/>
+      <FILE id="Sz3tjg" name="ProgramSelector.h" compile="0" resource="0"
+            file="Source/ProgramSelector.h"/>
+      <FILE id="MyYNzf" name="SynthEngine.cpp" compile="1" resource="0" file="Source/SynthEngine.cpp"/>
+      <FILE id="uqlTcs" name="SynthEngine.h" compile="0" resource="0" file="Source/SynthEngine.h"/>
+      <FILE id="vFE6yW" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="kGuQVB" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="iGOS1b" name="Utilities.h" compile="0" resource="0" file="Source/Utilities.h"/>
+      <GROUP id="{A9DEB786-C1CF-3DFC-322C-DFDBDF8E1DD9}" name="Utilities">
+        <FILE id="cIYGeN" name="PresetsUtilities.h" compile="0" resource="0"
+              file="Source/PresetsUtilities.h"/>
+      </GROUP>
+      <GROUP id="{0655545D-06E6-7742-B232-CCB8B7758D50}" name="Dialogs">
+        <FILE id="ROsvHX" name="FoldersList.cpp" compile="1" resource="0" file="Source/FoldersList.cpp"/>
+        <FILE id="fHhgIS" name="FoldersList.h" compile="0" resource="0" file="Source/FoldersList.h"/>
+        <FILE id="ViGlQ1" name="PresetsSave.cpp" compile="1" resource="0" file="Source/PresetsSave.cpp"/>
+        <FILE id="Jd1DTU" name="PresetsSave.h" compile="0" resource="0" file="Source/PresetsSave.h"/>
+        <FILE id="XmiF5w" name="PresetsBrowser.cpp" compile="1" resource="0"
+              file="Source/PresetsBrowser.cpp"/>
+        <FILE id="gxilCn" name="PresetsBrowser.h" compile="0" resource="0"
+              file="Source/PresetsBrowser.h"/>
+        <FILE id="YEpUYL" name="PresetsList.cpp" compile="1" resource="0" file="Source/PresetsList.cpp"/>
+        <FILE id="ZItAih" name="PresetsList.h" compile="0" resource="0" file="Source/PresetsList.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_box2d" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="S1" auBinaryLocation="/Library/Audio/Plug-Ins/Components"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="S1" auBinaryLocation="/Library/Audio/Plug-Ins/Components"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
